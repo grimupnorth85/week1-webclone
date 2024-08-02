@@ -115,9 +115,9 @@ width: 1px;
     height: 800vh;
 }
 
-.box0 {background-image: url(/webimages/psbuttons.jpg);
-    justify-content: stretch;
-   height: 10px; width: 100%; padding-block: 400px; font-size: 20px; color: rgba(215, 208, 216, 0.514);
+.box0 {
+   
+    height: 10px; width: 100%; padding-block: 400px; font-size: 20px; color: rgba(215, 208, 216, 0.514);
 }
 
 .box1 {background: rgb(198, 78, 64);
@@ -146,6 +146,15 @@ width: 100%; padding-block: 10%; font-size: 20px; color: whitesmoke;
     padding: 15%;
 }
 
+.box5 a {
+    color: salmon;
+}
+
+.box5 a:hover {
+    text-decoration: underline;
+}
+
+
 .container2 {
     border: 10px  solid 151414;
     display:flex;
@@ -158,6 +167,18 @@ width: 100%; padding-block: 10%; font-size: 20px; color: whitesmoke;
     size-adjust: 100%;
     padding:15%;
     text-decoration: none;
+    
+}
+
+.container2 a {
+    color: #1b1a1a;
+}
+
+.container2 .group {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
 }
 
 .logobox1 {background: whitesmoke;
@@ -250,4 +271,13 @@ button3:hover{
 }
 .box6 a:hover {
     color:white;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.container3 a {
+    color: salmon;
 }
