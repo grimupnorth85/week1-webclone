@@ -134,9 +134,13 @@ width: 100%; padding-block: 10%; font-size: 20px; color: whitesmoke;
     height:min-content; width: 100%; padding-block: 5%; font-size: 30px; color: rgb(16, 5, 5);}
 .box6 {background: 151414;
     margin: 0px; width: 100%; padding-block: 0; font-size: 30px; color: whitesmoke;}
-.box7 {background: rgb(37, 40, 43);
+
+
+    .box7 {background: rgb(37, 40, 43);
    height: 350px; width: 100%; padding-block: 50px; font-size: 20px; color: whitesmoke;}
-.box8 {background: whitesmoke;
+
+
+   .box8 {background: whitesmoke;
     height: 400px; width: 100%; padding-block: 50px; font-size: 20px; color: black;}
 .box9 {background: 151414;
     margin: 0px; width: 100%; padding-block: 0; font-size: 30px; color: rgb(255, 254, 254);}
@@ -267,6 +271,8 @@ button3:hover{
     color: salmon;
     padding: 350px;
     padding-block: 150px;
+    text-decoration: white;
+    text-decoration-color: white;
 
 }
 .box6 a:hover {
@@ -279,5 +285,30 @@ a {
 }
 
 .container3 a {
+    color: salmon;
+}
+
+.endbox a {
+    color: salmon;
+}
+
+.endbox a:hover {
+    text-decoration: underline;
+}
+
+.group1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.top {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.box7 a {
+    text-decoration: dotted;
     color: salmon;
 }
