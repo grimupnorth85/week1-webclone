@@ -116,7 +116,7 @@ width: 1px;
 }
 
 .box0 {
-   
+    background-image: url(webimages/psbuttons.jpg);
     height: 10px; width: 100%; padding-block: 400px; font-size: 20px; color: rgba(215, 208, 216, 0.514);
 }
 
@@ -178,7 +178,7 @@ width: 100%; padding-block: 10%; font-size: 20px; color: whitesmoke;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    
+
 }
 
 .logobox1 {background: whitesmoke;
